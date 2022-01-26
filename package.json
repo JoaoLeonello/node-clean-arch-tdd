@@ -8,7 +8,7 @@
     "test:verbose": "jest --passWithNoTests --runInBand",
     "test:unit": "npm test -- --watch -c jest-unit-config.js",
     "test:integration": "npm test -- --watch -c jest-integration-config.js",
-    "test:staged": "npm run test -- --watchAll=false --findRelatedTests",
+    "test:staged": "npm run test -- --findRelatedTests",
     "test:ci": "npm run test -- --coverage"
   },
   "keywords": [],
