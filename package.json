@@ -10,7 +10,7 @@
     "test:integration": "npm test -- --watch -c",
     "test:staged": "npm run test --",
     "test:ci": "npm run test -- --coverage",
-    "start": "sucrase-node src/main/server.ts"
+    "start": "nodemon src/main/server.ts"
   },
   "keywords": [],
   "author": "",
@@ -33,6 +33,7 @@
     "husky": "^4.3.8",
     "jest": "^27.4.7",
     "lint-staged": "^12.1.7",
+    "nodemon": "^2.0.16",
     "sucrase": "^3.21.0",
     "supertest": "^6.2.3",
     "ts-jest": "^27.1.3",
